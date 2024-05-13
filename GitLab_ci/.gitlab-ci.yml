@@ -22,8 +22,8 @@ docker_build:
     - export
     - tag=$CI_TAG
     - echo "Running build with tag $tag"
-    - docker build -t mikhailrizhkin1/diplom:$tag .
-    - docker push mikhailrizhkin1/diplom:$tag
+    - docker build -t oromanovna/diplom:$tag .
+    - docker push oromanovna/diplom:$tag
 
 app_deploy: 
   stage: deploy
